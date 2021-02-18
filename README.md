@@ -1,4 +1,6 @@
-# Vectorworks 2019 SDK Examples
+# Vectorworks 2021 SDK Examples
+
+# OUTDATED - Update once everything is set up correctly! 
 
 This folder contains examples for Vectorworks 2019.
 
