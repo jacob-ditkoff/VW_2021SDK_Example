@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -318,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
 				INFOPLIST_FILE = "./Source/Module-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -400,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
 				INFOPLIST_FILE = "./Source/Module-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
