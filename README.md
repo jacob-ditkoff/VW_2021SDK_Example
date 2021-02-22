@@ -45,9 +45,9 @@ Find your Vectorworks installation's Plug-ins folder (Details on how to do this 
 ```
 Which will be moved into the user's plugin folder in Vectorworks. 
 
-```
-Will be updated when the Windows version is up-to-date
-```
+
+* This will be updated when the Windows version is up-to-date*
+
 ~~Alternatively, you can add this shortcut to the Vectorworks user's folder:~~
  ~~* Mac: `/Users/<Username>/Library/Application Support/Vectorworks/2019/`~~
  ~~* Windows: `C:\Users\<Username>\AppData\Roaming\Nemetschek\Vectorworks\2019\`~~
@@ -81,7 +81,7 @@ Some common issues which have been encountered are documented here.
 
 2. Outdated software/ Updated SDK/ Updated XCode – This tutorial is only really guaranteed to work for this version. Test out other versions? There shouldn’t be major changes between different builds of VW as long as it’s VW2021. 
 
-3. Vectorworks doesn’t pick up the plugin – 
+3. Vectorworks doesn’t pick up the plugin.
 	* Potential reasons:
 		1) Incorrect alias folder: When making an alias, make sure that the folder contains the WebExample.vwlibrary file. For clarification, see steps 3, 4, and 10. 
 		2) Delete the .vwlibrary and .dSYM files present in the Debug/Alias folder and recompile the project so that it contains a brand new library file. An older version may potentially cause you issues.
@@ -92,8 +92,8 @@ Some common issues which have been encountered are documented here.
 
 5. Command CodeSign failed with nonzero exit 
 	* Potential solutions:
-	1) Make sure the project is stored locally. Storing it remotely may result in XCode needing the code to be signed. Storing it remotely allows for the target and project to be signed remotely. 
-	2) Go to Project AND Target Build Settings, navigate to the Signing section, set Code Signing Identity to Don’t Code Sign, or to an empty box. (Source: https://stackoverflow.com/questions/31039513/how-can-i-skip-code-signing-for-development-builds-in-xcode)
+		1) Make sure the project is stored locally. Storing it remotely may result in XCode needing the code to be signed. Storing it remotely allows for the target and project to be signed remotely. 
+		2) Go to Project AND Target Build Settings, navigate to the Signing section, set Code Signing Identity to Don’t Code Sign, or to an empty box. (Source: https://stackoverflow.com/questions/31039513/how-can-i-skip-code-signing-for-development-builds-in-xcode)
 	
 6. File StdAfx.h not found after cleaning build files. 
 	* Solution: Ignore it! When you build and run the project, this error will disappear.
