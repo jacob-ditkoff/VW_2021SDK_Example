@@ -34,7 +34,6 @@
 
 # Visual Studio specific
 *.vs
-*_Output
 *.user
 
 # Mac & Xcode specific
